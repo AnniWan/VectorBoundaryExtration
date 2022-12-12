@@ -1,0 +1,27 @@
+Dataset:
+  data_root: F:/dataset/crowAI/
+  train_list: F:/dataset/crowAI/train.txt
+  test_list: F:/dataset/crowAI/val.txt
+  val_list: F:/dataset/crowAI/val.txt
+  classes: 2
+Train:
+  workers: 0
+  classes: 2
+  point_length: 30
+  batch_size: 4
+  train_h: 300
+  train_w: 300
+  train_gpu: 0
+  base_lr: 0.0001
+  momentum: 0.9
+  weight_decay: 0.0001
+  epochs: 40
+  start_epoch: 0
+  evaluate: False
+  batch_size_val: 1
+  power: 0.9
+  print_freq: 10
+  weights: 
+  resume:
+  save_freq: 1
+  save_path: acm_gcn
